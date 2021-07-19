@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <h1>Sign up</h1>
+        <p>Fill in the below information to create an account</p>
+        <label for="email"><strong>Email: </strong></label>
+        <input
+          type="text"
+          placeholder="enter email"
+          name="email"
+          required
+        /><br />
+
+        <label for="password"><strong>Password: </strong></label>
+        <input
+          type="password"
+          placeholder="enter password"
+          name="password"
+          required
+        /><br />
+
+        <label for="github user"><strong>Github Username: </strong></label>
+        <input
+          type="text"
+          placeholder="enter github username"
+          name="github user"
+          required
+        /><br />
+
+        <label for="enterprise">enterprise</label>
+        <input type="radio" name="subscription" value="enterprise" /><br />
+
+        <label for="pro">pro</label>
+        <input type="radio" name="subscription" value="pro" /><br />
+
+        <label for="free">free</label>
+        <input type="radio" name="subscription" value="free" /><br />
+
+        <label for="remember-me">remember me?</label>
+        <input type="checkbox" name="remember" value="remember-me" />
+      </div>
+    </form>
+  </body>
+</html>
